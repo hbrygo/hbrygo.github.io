@@ -1,0 +1,40 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f8f9fb;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+h1,
+h2 {
+  margin-top: 0;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+}
+
+.project-list li,
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #0b57d0;
+}
